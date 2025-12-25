@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website statis materi perkuliahan Kecerdasan Buatan">
+  <title>Materi Perkuliahan Kecerdasan Buatan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Materi Perkuliahan Kecerdasan Buatan</h1>
+    <input type="text" id="searchInput" placeholder="Cari pertemuan atau materi..." aria-label="Pencarian materi">
+  </header>
+
+  <main>
+    <aside id="sidebar">
+      <h2>Daftar Pertemuan</h2>
+      <div id="meetingsList"></div>
+    </aside>
+
+    <section id="content">
+      <article id="material">
+        <!-- Konten materi ditampilkan melalui JavaScript -->
+      </article>
+
+      <nav aria-label="Navigasi pertemuan">
+        <button id="prevBtn">Sebelumnya</button>
+        <button id="nextBtn">Selanjutnya</button>
+      </nav>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 | Media Pembelajaran Kecerdasan Buatan</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
